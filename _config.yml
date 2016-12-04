@@ -74,7 +74,7 @@ duoshuo_shortname: maviszhu1987
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: github
+  type: git
   repository: git@github.com:maviszhu/maviszhu.github.io.git
   branch: master
   
