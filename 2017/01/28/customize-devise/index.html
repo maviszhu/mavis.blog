@@ -68,7 +68,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="编程,Ruby on Rails," />
 
 
 
@@ -84,15 +84,16 @@
 
 
 
-<meta name="description" content="学习，思考，记录">
-<meta property="og:type" content="website">
-<meta property="og:title" content="彳亍而思">
-<meta property="og:url" content="http://www.learn-to-reborn.com/index.html">
+<meta name="description" content="增加中文语言包来汉化devise的默认语言包是英语，文件位置是项目的config/locales文件夹下。找到devise.en.yml，打开，可以看到：12345678en:  devise:    confirmations:      confirmed: &amp;quot;Your email address has been successfully confirmed.&amp;quot;">
+<meta property="og:type" content="article">
+<meta property="og:title" content="如何汉化/自定义devise的提示信息">
+<meta property="og:url" content="http://www.learn-to-reborn.com/2017/01/28/customize-devise/index.html">
 <meta property="og:site_name" content="彳亍而思">
-<meta property="og:description" content="学习，思考，记录">
+<meta property="og:description" content="增加中文语言包来汉化devise的默认语言包是英语，文件位置是项目的config/locales文件夹下。找到devise.en.yml，打开，可以看到：12345678en:  devise:    confirmations:      confirmed: &amp;quot;Your email address has been successfully confirmed.&amp;quot;">
+<meta property="og:updated_time" content="2017-01-28T14:50:43.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="彳亍而思">
-<meta name="twitter:description" content="学习，思考，记录">
+<meta name="twitter:title" content="如何汉化/自定义devise的提示信息">
+<meta name="twitter:description" content="增加中文语言包来汉化devise的默认语言包是英语，文件位置是项目的config/locales文件夹下。找到devise.en.yml，打开，可以看到：12345678en:  devise:    confirmations:      confirmed: &amp;quot;Your email address has been successfully confirmed.&amp;quot;">
 
 
 
@@ -120,13 +121,13 @@
 
 
 
-  <link rel="canonical" href="http://www.learn-to-reborn.com/"/>
+  <link rel="canonical" href="http://www.learn-to-reborn.com/2017/01/28/customize-devise/"/>
 
 
 
 
 
-  <title> 彳亍而思 </title>
+  <title> 如何汉化/自定义devise的提示信息 | 彳亍而思 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -147,9 +148,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -238,9 +237,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -273,10 +272,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2017/01/28/customize-devise/" itemprop="url">
-                  如何汉化/自定义devise的提示信息
-                </a>
+                如何汉化/自定义devise的提示信息
               
             
           </h1>
@@ -332,9 +328,7 @@
       
 
       
-        
-          
-            <h3 id="增加中文语言包来汉化"><a href="#增加中文语言包来汉化" class="headerlink" title="增加中文语言包来汉化"></a>增加中文语言包来汉化</h3><p>devise的默认语言包是英语，文件位置是项目的config/locales文件夹下。找到<code>devise.en.yml</code>，打开，可以看到：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">en:</div><div class="line">  devise:</div><div class="line">    confirmations:</div><div class="line">      confirmed: &quot;Your email address has been successfully confirmed.&quot;</div><div class="line">      send_instructions: &quot;You will receive an email with instructions for how to confirm your email address in a few minutes.&quot;</div><div class="line">      send_paranoid_instructions: &quot;If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes.&quot;</div><div class="line">    failure:</div><div class="line">    ......</div></pre></td></tr></table></figure></p>
+        <h3 id="增加中文语言包来汉化"><a href="#增加中文语言包来汉化" class="headerlink" title="增加中文语言包来汉化"></a>增加中文语言包来汉化</h3><p>devise的默认语言包是英语，文件位置是项目的config/locales文件夹下。找到<code>devise.en.yml</code>，打开，可以看到：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div></pre></td><td class="code"><pre><div class="line">en:</div><div class="line">  devise:</div><div class="line">    confirmations:</div><div class="line">      confirmed: &quot;Your email address has been successfully confirmed.&quot;</div><div class="line">      send_instructions: &quot;You will receive an email with instructions for how to confirm your email address in a few minutes.&quot;</div><div class="line">      send_paranoid_instructions: &quot;If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes.&quot;</div><div class="line">    failure:</div><div class="line">    ......</div></pre></td></tr></table></figure></p>
 <p>这个文件定义了每种用户会话状态下，对应的提示语句，如果使用了bootstrap／flash的话，“”中的语句就是显示到提示信息中的。</p>
 <p>如果想修改为其他英文信息，可以直接在这个文件上修改保存。然后<code>rails s</code>重启服务器后，就可以看到提示信息已对应修改。</p>
 <p>如果想要做汉化，或者其他语言的话，建议新增语言包文件。</p>
@@ -367,304 +361,64 @@
 <p>当然，也可以用<code>flash[:key] = &quot;message&quot;</code>。</p>
 <p>自定义devise controller后，需要在route中设置。比如：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">devise_for :users,</div><div class="line">          :controllers =&gt; &#123; :registrations =&gt; &quot;devise/my_devise/registrations&quot;&#125;</div></pre></td></tr></table></figure></p>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
 
     <footer class="post-footer">
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://www.learn-to-reborn.com/2017/01/28/2017-01-28/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="maviszhu">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.gif">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="彳亍而思">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="彳亍而思" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2017/01/28/2017-01-28/" itemprop="url">
-                  如何在ROR中将will_paginate应用为Bootstrap样式
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-28T20:21:30+08:00">
-                2017-01-28
-              </time>
-            
-
-            
-
-            
-          </span>
-
+        <div class="post-tags">
           
-
+            <a href="/tags/编程/" rel="tag"># 编程</a>
           
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <a href="/2017/01/28/2017-01-28/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/28/2017-01-28/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
+            <a href="/tags/Ruby-on-Rails/" rel="tag"># Ruby on Rails</a>
           
-
-          
-
-          
-          
-
-          
-
-          
-
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h3 id="Step1-安装will-paginate-bootstrap这个gem"><a href="#Step1-安装will-paginate-bootstrap这个gem" class="headerlink" title="Step1: 安装will_paginate-bootstrap这个gem"></a>Step1: 安装will_paginate-bootstrap这个gem</h3><blockquote>
-<p>This gem integrates the Twitter Bootstrap pagination component with the will_paginate pagination gem.</p>
-</blockquote>
-<p><a href="https://github.com/bootstrap-ruby/will_paginate-bootstrap" target="_blank" rel="external">这个gem</a>的最新更新是在三年前，不过在<strong>ruby 2.3.1, rails 5.0.1, mac10.12.1</strong>的环境下，依然正常运行。</p>
-<p>在Gemfile中添加<code>gem &#39;will_paginate-bootstrap&#39;</code>，再bundle install，就可以在当前项目中使用了。</p>
-<h3 id="Step2-需要分页的页面，在其对应的controller中设置好"><a href="#Step2-需要分页的页面，在其对应的controller中设置好" class="headerlink" title="Step2: 需要分页的页面，在其对应的controller中设置好"></a>Step2: 需要分页的页面，在其对应的controller中设置好</h3><p>假设是要对job这个对象进行分页显示，那么在对应的controller中，对于要传递到view中的变量@jobs，加上<code>.paginate(:page =&gt; params[:page], :per_page =&gt; 5)</code>类似语句。比如：<code>@jobs = current_user.jobs.paginate(:page =&gt; params[:page], :per_page =&gt; 10).order(&#39;updated_at DESC&#39;)</code>。</p>
-<p>per_page后的整数,是用来限定每页显示多少的。</p>
-<h3 id="Step4-在对应的view中添加上分页区块"><a href="#Step4-在对应的view中添加上分页区块" class="headerlink" title="Step4: 在对应的view中添加上分页区块"></a>Step4: 在对应的view中添加上分页区块</h3><p>在view中，一般是在最下方添加如下语句：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">&lt;div class=&quot;pagination&quot;&gt;</div><div class="line">  &lt;%= will_paginate @jobs, renderer: BootstrapPagination::Rails %&gt;</div><div class="line">&lt;/div&gt;</div></pre></td></tr></table></figure></p>
-<h3 id="Step4-自定义前一页、后一页显示的符号"><a href="#Step4-自定义前一页、后一页显示的符号" class="headerlink" title="Step4: 自定义前一页、后一页显示的符号"></a>Step4: 自定义前一页、后一页显示的符号</h3><p>默认的样式中，使用箭头+Previous／Next来展示前一页／后一页：<br><img src="https://ww4.sinaimg.cn/large/006tNc79gy1fc6muh3ouhj307s014weg.jpg" alt="默认样式"></p>
-<p>我们可以自定义样式。在项目的config/initializers路径下，找到will_paginate.rb，打开，添加如下语句：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">WillPaginate::ViewHelpers.pagination_options[:previous_label ]   =  &quot;&lt;&lt;&quot;</div><div class="line">WillPaginate::ViewHelpers.pagination_options[:next_label ]       =  &quot;&gt;&gt;&quot;</div></pre></td></tr></table></figure></p>
-<p>就可以将前一页的图标替换为“&lt;&lt;”，前一页的图标替换为“&gt;&gt;”。<br><img src="https://ww4.sinaimg.cn/large/006tNc79gy1fc6nacf4i1j305801gmx0.jpg" alt="自定义样式"></p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://www.learn-to-reborn.com/2016/12/04/start-to-write/">
-
-  <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
-    <meta itemprop="name" content="maviszhu">
-    <meta itemprop="description" content="">
-    <meta itemprop="image" content="/images/avatar.gif">
-  </span>
-
-  <span style="display:none" itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="彳亍而思">
-    <span style="display:none" itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
-      <img style="display:none;" itemprop="url image" alt="彳亍而思" src="">
-    </span>
-  </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
+              <a href="/2017/01/28/2017-01-28/" rel="next" title="如何在ROR中将will_paginate应用为Bootstrap样式">
+                <i class="fa fa-chevron-left"></i> 如何在ROR中将will_paginate应用为Bootstrap样式
+              </a>
             
-              
-                
-                <a class="post-title-link" href="/2016/12/04/start-to-write/" itemprop="url">
-                  这是一个语无伦次的开始
-                </a>
-              
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-04T15:15:59+08:00">
-                2016-12-04
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <a href="/2016/12/04/start-to-write/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/12/04/start-to-write/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h2 id="为什么有这样一个博客"><a href="#为什么有这样一个博客" class="headerlink" title="为什么有这样一个博客"></a>为什么有这样一个博客</h2><p>2016年我自己罗列的看过的书已经超过50本，参加过的线上讲座、微课、opencourse都不想再去统计了。笔记做了很多，每次上完课也是一堆感想。然并卵的是，似乎并没有对生活的改善起到多大的推进作用。</p>
-<p>迷茫，仍然是周期发作的毛病。</p>
-<p>我想，这不是我不够勤奋，不够聪明，但，一定是哪里出现了我从没想过的问题。</p>
-<p>今年初，很多人事发生了大的转变。不知道从哪个契机开始，我认识到，我在输出上做得太少。我以为自己在思考，却从来都只是在“安装”。</p>
-<p>花了两个周末，从git到hexo，终于把这个博客折腾到可以用的程度。</p>
-<p>这也许不是个完美的开始，但我想，若干年后的哪天，回头去看这篇博客，应该会是个里程碑式的存在。</p>
-<h2 id="从今天开始做点什么"><a href="#从今天开始做点什么" class="headerlink" title="从今天开始做点什么"></a>从今天开始做点什么</h2><p>如果足够有缘到你看到这篇博客，那么我也建议你从今天开始做点什么。</p>
-<p>不必每天焦虑地用各种材料填满时间的每个碎片。停下来想一想，任何主题都可以，但一定要写下来。或者，直接去做点什么。</p>
-<p>学得那么累，那么多，不去做点什么能改变生活的事情，又有什么意义呢？</p>
-<p>现在就开始吧！</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -672,6 +426,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2017/01/28/customize-devise/"
+           data-title="如何汉化/自定义devise的提示信息" data-url="http://www.learn-to-reborn.com/2017/01/28/customize-devise/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -766,6 +528,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
 
   
 
