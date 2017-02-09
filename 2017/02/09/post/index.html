@@ -84,30 +84,34 @@
 
 
 
-<meta name="description" content="背景前两天修改RoR项目，将默认的语言包设置为中文，并添加了devise的对应语言包。
-想到之前项目中使用的日期，都是直接使用&amp;lt;%= xx.created_at %&amp;gt;，从而都是英语的、而且是UTC的显示方式，就想修改一下。
-错误采用的方式是，使用&amp;lt;%= time_tag(xx.created_at) %&amp;gt;替代之前的写法。
-然后在本地预览时就报错了：
-解决根据提示信息，猜测是">
+<meta name="description" content="相同点
+都是构建routes路由的方法
+都是写在resources xxx do ... end代码块内
+使用方法类似
+
+声明member路由：12345resources :photos do  member do    post :preview  endend
+声明collection路由：12345resources :photos do  collection do    post :s">
 <meta property="og:type" content="article">
-<meta property="og:title" content="错误记录-i18n:MissingTranslationData">
-<meta property="og:url" content="http://www.learn-to-reborn.com/2017/01/31/post/index.html">
+<meta property="og:title" content="Rails routes 中member和collection的区别">
+<meta property="og:url" content="http://www.learn-to-reborn.com/2017/02/09/post/index.html">
 <meta property="og:site_name" content="彳亍而思">
-<meta property="og:description" content="背景前两天修改RoR项目，将默认的语言包设置为中文，并添加了devise的对应语言包。
-想到之前项目中使用的日期，都是直接使用&amp;lt;%= xx.created_at %&amp;gt;，从而都是英语的、而且是UTC的显示方式，就想修改一下。
-错误采用的方式是，使用&amp;lt;%= time_tag(xx.created_at) %&amp;gt;替代之前的写法。
-然后在本地预览时就报错了：
-解决根据提示信息，猜测是">
-<meta property="og:image" content="https://ww2.sinaimg.cn/large/006tNc79gy1fca7i0q5a0j31kw0l6jx5.jpg">
-<meta property="og:updated_time" content="2017-01-31T15:01:33.000Z">
+<meta property="og:description" content="相同点
+都是构建routes路由的方法
+都是写在resources xxx do ... end代码块内
+使用方法类似
+
+声明member路由：12345resources :photos do  member do    post :preview  endend
+声明collection路由：12345resources :photos do  collection do    post :s">
+<meta property="og:updated_time" content="2017-02-09T15:08:28.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="错误记录-i18n:MissingTranslationData">
-<meta name="twitter:description" content="背景前两天修改RoR项目，将默认的语言包设置为中文，并添加了devise的对应语言包。
-想到之前项目中使用的日期，都是直接使用&amp;lt;%= xx.created_at %&amp;gt;，从而都是英语的、而且是UTC的显示方式，就想修改一下。
-错误采用的方式是，使用&amp;lt;%= time_tag(xx.created_at) %&amp;gt;替代之前的写法。
-然后在本地预览时就报错了：
-解决根据提示信息，猜测是">
-<meta name="twitter:image" content="https://ww2.sinaimg.cn/large/006tNc79gy1fca7i0q5a0j31kw0l6jx5.jpg">
+<meta name="twitter:title" content="Rails routes 中member和collection的区别">
+<meta name="twitter:description" content="相同点
+都是构建routes路由的方法
+都是写在resources xxx do ... end代码块内
+使用方法类似
+
+声明member路由：12345resources :photos do  member do    post :preview  endend
+声明collection路由：12345resources :photos do  collection do    post :s">
 
 
 
@@ -135,13 +139,13 @@
 
 
 
-  <link rel="canonical" href="http://www.learn-to-reborn.com/2017/01/31/post/"/>
+  <link rel="canonical" href="http://www.learn-to-reborn.com/2017/02/09/post/"/>
 
 
 
 
 
-  <title> 错误记录-i18n:MissingTranslationData | 彳亍而思 </title>
+  <title> Rails routes 中member和collection的区别 | 彳亍而思 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -262,7 +266,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://www.learn-to-reborn.com/2017/01/31/post/">
+  <link itemprop="mainEntityOfPage" href="http://www.learn-to-reborn.com/2017/02/09/post/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="maviszhu">
@@ -286,7 +290,7 @@
             
             
               
-                错误记录-i18n:MissingTranslationData
+                Rails routes 中member和collection的区别
               
             
           </h1>
@@ -299,8 +303,8 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-01-31T22:35:33+08:00">
-                2017-01-31
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-09T22:48:48+08:00">
+                2017-02-09
               </time>
             
 
@@ -315,8 +319,8 @@
             
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
-                <a href="/2017/01/31/post/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/01/31/post/" itemprop="commentCount"></span>
+                <a href="/2017/02/09/post/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/09/post/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -342,17 +346,15 @@
       
 
       
-        <h3 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h3><p>前两天修改RoR项目，将默认的语言包设置为中文，并添加了devise的对应语言包。</p>
-<p>想到之前项目中使用的日期，都是直接使用<code>&lt;%= xx.created_at %&gt;</code>，从而都是英语的、而且是UTC的显示方式，就想修改一下。</p>
-<h3 id="错误"><a href="#错误" class="headerlink" title="错误"></a>错误</h3><p>采用的方式是，使用<code>&lt;%= time_tag(xx.created_at) %&gt;</code>替代之前的写法。</p>
-<p>然后在本地预览时就报错了：<br><img src="https://ww2.sinaimg.cn/large/006tNc79gy1fca7i0q5a0j31kw0l6jx5.jpg" alt="报错"></p>
-<h3 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h3><p>根据提示信息，猜测是因为i18n的翻译文档缺失。google了相关解决方法，然后采用的是一个比较简单的方法解决的：</p>
-<p>直接在Gemfile中加入<code>gem &quot;rails-i18n&quot;</code>，然后bundle install。（PS：因为在之前修改devise语言包的时候，已经在config/applicaiton.rb中有设置<code>config.i18n.default_locale = &quot;zh-CN&quot;</code>）</p>
-<p>通过这个gem的安装，就会直接使用<a href="https://github.com/svenfuchs/rails-i18n/tree/master/rails/locale" target="_blank" rel="external">https://github.com/svenfuchs/rails-i18n</a>中的中文翻译文档。</p>
-<p>其实也可以尝试自定义这个翻译文档，只要<code>touch config/locales/zh-CN.yml</code>，然后参照项目原有的config/locales/en.yml进行翻译即可，注意将开头的en替换为zh-CN。</p>
-<blockquote>
-<p>注意 YAML 格式的文档中，赋值的冒号后必须有空格。</p>
-</blockquote>
+        <h3 id="相同点"><a href="#相同点" class="headerlink" title="相同点"></a>相同点</h3><ul>
+<li>都是构建routes路由的方法</li>
+<li>都是写在<code>resources xxx do ... end</code>代码块内</li>
+<li>使用方法类似</li>
+</ul>
+<p>声明member路由：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">resources :photos do</div><div class="line">  member do</div><div class="line">    post :preview</div><div class="line">  end</div><div class="line">end</div></pre></td></tr></table></figure></p>
+<p>声明collection路由：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">resources :photos do</div><div class="line">  collection do</div><div class="line">    post :search</div><div class="line">  end</div><div class="line">end</div></pre></td></tr></table></figure></p>
+<h3 id="不同点"><a href="#不同点" class="headerlink" title="不同点"></a>不同点</h3><p>member路由是作用在作为resources的objects、的每一个object上（act on a member，因此需要具体的object id）。<br>它要求相应object的ID传入到params[:id]。<br>按照上面的例子，其生成的url是<code>/photos/:id/preview</code>，生成的帮助方法是<code>preview_photo_path(photo)</code>。</p>
+<p>collection路由是作用在作为resources的objects、这个objects整体上（act on collection of resources）。<br>因此，它不要求传入ID。<br>按照上面的例子，其生成的url是<code>/photos/search</code>，生成的帮助方法是<code>search_photos_path</code>。</p>
 
       
     </div>
@@ -387,8 +389,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/01/28/customize-devise/" rel="next" title="如何汉化/自定义devise的提示信息">
-                <i class="fa fa-chevron-left"></i> 如何汉化/自定义devise的提示信息
+              <a href="/2017/01/31/post/" rel="next" title="错误记录-i18n:MissingTranslationData">
+                <i class="fa fa-chevron-left"></i> 错误记录-i18n:MissingTranslationData
               </a>
             
           </div>
@@ -396,10 +398,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/02/09/post/" rel="prev" title="Rails routes 中member和collection的区别">
-                Rails routes 中member和collection的区别 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -425,8 +423,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2017/01/31/post/"
-           data-title="错误记录-i18n:MissingTranslationData" data-url="http://www.learn-to-reborn.com/2017/01/31/post/">
+      <div class="ds-thread" data-thread-key="2017/02/09/post/"
+           data-title="Rails routes 中member和collection的区别" data-url="http://www.learn-to-reborn.com/2017/02/09/post/">
       </div>
     
   </div>
