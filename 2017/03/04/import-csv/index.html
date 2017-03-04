@@ -84,34 +84,25 @@
 
 
 
-<meta name="description" content="相同点
-都是构建routes路由的方法
-都是写在resources xxx do ... end代码块内
-使用方法类似
-
-声明member路由：12345resources :photos do  member do    post :preview  endend
-声明collection路由：12345resources :photos do  collection do    post :s">
+<meta name="description" content="问题在windows笔记本上，用python爬了数据，然后存储为csv。
+csv复制到mac上，导入数据的代码如下:12require &amp;apos;csv&amp;apos;csv = CSV.parse(File.open(&amp;apos;test.csv&amp;apos;))
+然后报错：unquoted fields do not allow \r or \n。
+解决google了一下，在stackoverfl">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Rails routes 中member和collection的区别">
-<meta property="og:url" content="http://www.learn-to-reborn.com/2017/02/09/post/index.html">
+<meta property="og:title" content="ruby中导入csv报错"unquoted fields do not allow \r or \n"">
+<meta property="og:url" content="http://www.learn-to-reborn.com/2017/03/04/import-csv/index.html">
 <meta property="og:site_name" content="彳亍而思">
-<meta property="og:description" content="相同点
-都是构建routes路由的方法
-都是写在resources xxx do ... end代码块内
-使用方法类似
-
-声明member路由：12345resources :photos do  member do    post :preview  endend
-声明collection路由：12345resources :photos do  collection do    post :s">
-<meta property="og:updated_time" content="2017-02-09T15:08:28.000Z">
+<meta property="og:description" content="问题在windows笔记本上，用python爬了数据，然后存储为csv。
+csv复制到mac上，导入数据的代码如下:12require &amp;apos;csv&amp;apos;csv = CSV.parse(File.open(&amp;apos;test.csv&amp;apos;))
+然后报错：unquoted fields do not allow \r or \n。
+解决google了一下，在stackoverfl">
+<meta property="og:updated_time" content="2017-03-04T05:38:21.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Rails routes 中member和collection的区别">
-<meta name="twitter:description" content="相同点
-都是构建routes路由的方法
-都是写在resources xxx do ... end代码块内
-使用方法类似
-
-声明member路由：12345resources :photos do  member do    post :preview  endend
-声明collection路由：12345resources :photos do  collection do    post :s">
+<meta name="twitter:title" content="ruby中导入csv报错"unquoted fields do not allow \r or \n"">
+<meta name="twitter:description" content="问题在windows笔记本上，用python爬了数据，然后存储为csv。
+csv复制到mac上，导入数据的代码如下:12require &amp;apos;csv&amp;apos;csv = CSV.parse(File.open(&amp;apos;test.csv&amp;apos;))
+然后报错：unquoted fields do not allow \r or \n。
+解决google了一下，在stackoverfl">
 
 
 
@@ -139,13 +130,13 @@
 
 
 
-  <link rel="canonical" href="http://www.learn-to-reborn.com/2017/02/09/post/"/>
+  <link rel="canonical" href="http://www.learn-to-reborn.com/2017/03/04/import-csv/"/>
 
 
 
 
 
-  <title> Rails routes 中member和collection的区别 | 彳亍而思 </title>
+  <title> ruby中导入csv报错"unquoted fields do not allow \r or \n" | 彳亍而思 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -266,7 +257,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://www.learn-to-reborn.com/2017/02/09/post/">
+  <link itemprop="mainEntityOfPage" href="http://www.learn-to-reborn.com/2017/03/04/import-csv/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="maviszhu">
@@ -290,7 +281,7 @@
             
             
               
-                Rails routes 中member和collection的区别
+                ruby中导入csv报错"unquoted fields do not allow \r or \n"
               
             
           </h1>
@@ -303,8 +294,8 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-02-09T22:48:48+08:00">
-                2017-02-09
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2017-03-04T10:04:51+08:00">
+                2017-03-04
               </time>
             
 
@@ -319,8 +310,8 @@
             
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
-                <a href="/2017/02/09/post/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/02/09/post/" itemprop="commentCount"></span>
+                <a href="/2017/03/04/import-csv/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/03/04/import-csv/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -346,15 +337,11 @@
       
 
       
-        <h3 id="相同点"><a href="#相同点" class="headerlink" title="相同点"></a>相同点</h3><ul>
-<li>都是构建routes路由的方法</li>
-<li>都是写在<code>resources xxx do ... end</code>代码块内</li>
-<li>使用方法类似</li>
-</ul>
-<p>声明member路由：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">resources :photos do</div><div class="line">  member do</div><div class="line">    post :preview</div><div class="line">  end</div><div class="line">end</div></pre></td></tr></table></figure></p>
-<p>声明collection路由：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line">resources :photos do</div><div class="line">  collection do</div><div class="line">    post :search</div><div class="line">  end</div><div class="line">end</div></pre></td></tr></table></figure></p>
-<h3 id="不同点"><a href="#不同点" class="headerlink" title="不同点"></a>不同点</h3><p>member路由是作用在作为resources的objects、的每一个object上（act on a member，因此需要具体的object id）。<br>它要求相应object的ID传入到params[:id]。<br>按照上面的例子，其生成的url是<code>/photos/:id/preview</code>，生成的帮助方法是<code>preview_photo_path(photo)</code>。</p>
-<p>collection路由是作用在作为resources的objects、这个objects整体上（act on collection of resources）。<br>因此，它不要求传入ID。<br>按照上面的例子，其生成的url是<code>/photos/search</code>，生成的帮助方法是<code>search_photos_path</code>。</p>
+        <h3 id="问题"><a href="#问题" class="headerlink" title="问题"></a>问题</h3><p>在windows笔记本上，用python爬了数据，然后存储为csv。</p>
+<p>csv复制到mac上，导入数据的代码如下:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">require &apos;csv&apos;</div><div class="line">csv = CSV.parse(File.open(&apos;test.csv&apos;))</div></pre></td></tr></table></figure></p>
+<p>然后报错：<code>unquoted fields do not allow \r or \n</code>。</p>
+<h3 id="解决"><a href="#解决" class="headerlink" title="解决"></a>解决</h3><p>google了一下，在stackoverflow上找到的<a href="http://stackoverflow.com/questions/9200175/rails-fastercsv-unquoted-fields-do-not-allow-r-or-n/27536887?noredirect=1#comment11589600_9200175" target="_blank" rel="external">解决方法</a>是：新建一个csv文件，然后把之前csv的内容拷贝过去。之后打开新csv就可以了。</p>
+<p>解释是，因为是在windows存储的csv，一个是windows自身会把文件编码成gbk，另外因为安装了excel，如果有先用excel打开这个csv的话，Excel会保存很多不必要的格式。<br>因此，新建一个csv，拷贝内容过去，就清空了所有格式。然后再打开就不会报错了。</p>
 
       
     </div>
@@ -389,8 +376,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/01/31/post/" rel="next" title="错误记录-i18n:MissingTranslationData">
-                <i class="fa fa-chevron-left"></i> 错误记录-i18n:MissingTranslationData
+              <a href="/2017/02/09/post/" rel="next" title="Rails routes 中member和collection的区别">
+                <i class="fa fa-chevron-left"></i> Rails routes 中member和collection的区别
               </a>
             
           </div>
@@ -398,10 +385,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2017/03/04/import-csv/" rel="prev" title="ruby中导入csv报错"unquoted fields do not allow \r or \n"">
-                ruby中导入csv报错"unquoted fields do not allow \r or \n" <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -427,8 +410,8 @@
           
   <div class="comments" id="comments">
     
-      <div class="ds-thread" data-thread-key="2017/02/09/post/"
-           data-title="Rails routes 中member和collection的区别" data-url="http://www.learn-to-reborn.com/2017/02/09/post/">
+      <div class="ds-thread" data-thread-key="2017/03/04/import-csv/"
+           data-title="ruby中导入csv报错"unquoted fields do not allow \r or \n"" data-url="http://www.learn-to-reborn.com/2017/03/04/import-csv/">
       </div>
     
   </div>
