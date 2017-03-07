@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://www.learn-to-reborn.comhttp://www.learn-to-reborn.com/2017/03/05/some-tips/</loc>
+    <lastmod>2017-03-05T15:39:14.000Z</lastmod>
+    <data>
+        <display>
+        <title>最近积累的一些小问题总结</title>
+        <pubTime>2017-03-05T14:28:07.000Z</pubTime>
+        
+        <tag>编程</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.learn-to-reborn.comhttp://www.learn-to-reborn.com/2017/03/04/don-t-show-image/</loc>
+    <lastmod>2017-03-04T06:26:00.000Z</lastmod>
+    <data>
+        <display>
+        <title>localhost:3000无法显示图片</title>
+        <pubTime>2017-03-04T06:04:27.000Z</pubTime>
+        
+        <tag>编程</tag>
+         
+        <tag>Ruby on Rails</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.learn-to-reborn.comhttp://www.learn-to-reborn.com/2017/03/04/import-csv/</loc>
+    <lastmod>2017-03-04T05:38:21.000Z</lastmod>
+    <data>
+        <display>
+        <title>ruby中导入csv报错"unquoted fields do not allow \r or \n"</title>
+        <pubTime>2017-03-04T02:04:51.000Z</pubTime>
+        
+        <tag>编程</tag>
+         
+        <tag>Ruby on Rails</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.learn-to-reborn.comhttp://www.learn-to-reborn.com/2017/02/09/post/</loc>
+    <lastmod>2017-02-09T15:08:28.000Z</lastmod>
+    <data>
+        <display>
+        <title>Rails routes 中member和collection的区别</title>
+        <pubTime>2017-02-09T14:48:48.000Z</pubTime>
+        
+        <tag>编程</tag>
+         
+        <tag>Ruby on Rails</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.learn-to-reborn.comhttp://www.learn-to-reborn.com/2017/01/31/post/</loc>
+    <lastmod>2017-01-31T15:01:33.000Z</lastmod>
+    <data>
+        <display>
+        <title>错误记录-i18n:MissingTranslationData</title>
+        <pubTime>2017-01-31T14:35:33.000Z</pubTime>
+        
+        <tag>编程</tag>
+         
+        <tag>Ruby on Rails</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.learn-to-reborn.comhttp://www.learn-to-reborn.com/2017/01/28/customize-devise/</loc>
+    <lastmod>2017-01-28T14:51:55.000Z</lastmod>
+    <data>
+        <display>
+        <title>如何汉化/自定义devise的提示信息</title>
+        <pubTime>2017-01-28T13:37:42.000Z</pubTime>
+        
+        <tag>编程</tag>
+         
+        <tag>Ruby on Rails</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.learn-to-reborn.comhttp://www.learn-to-reborn.com/2017/01/28/2017-01-28/</loc>
+    <lastmod>2017-01-28T13:06:37.000Z</lastmod>
+    <data>
+        <display>
+        <title>如何在ROR中将will_paginate应用为Bootstrap样式</title>
+        <pubTime>2017-01-28T12:21:30.000Z</pubTime>
+        
+        <tag>编程</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.learn-to-reborn.comhttp://www.learn-to-reborn.com/2016/12/04/start-to-write/</loc>
+    <lastmod>2017-01-21T04:32:05.000Z</lastmod>
+    <data>
+        <display>
+        <title>这是一个语无伦次的开始</title>
+        <pubTime>2016-12-04T07:15:59.000Z</pubTime>
+        
+        <tag>写作</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+    
+</urlset>
