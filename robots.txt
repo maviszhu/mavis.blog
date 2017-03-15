@@ -12,5 +12,5 @@ Disallow: /fonts/
 Disallow: /vendors/
 Disallow: /fancybox/
 
-Sitemap: http://www.learn-to-reborn.com/sitemap.xml
-Sitemap: http://www.learn-to-reborn.com/baidusitemap.xml
+Sitemap: http://www.learn-to-reborn/sitemap.xml
+Sitemap: http://www.learn-to-reborn/baidusitemap.xml
